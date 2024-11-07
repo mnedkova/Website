@@ -413,13 +413,20 @@ ol, li {
 }
 
 .Links {
-  margin-top:10%;
-  column-count: 3;
-  height:100%;
-  font-family:"Roboto", sans-serif;
-  margin-bottom:10%;
-  
-  
+  padding:80px 13% 70px;
+  width:100%;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px,auto));
+  gap:3.5rem;
 }
+
+.column ul li:hover{
+  transform:translate(-2px) translate(-3px);
+  color: black;
+  white-space: pre;
+  font-weight:bold;
+
+}
+
 
 
